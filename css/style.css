@@ -1,5 +1,6 @@
 ::-webkit-scrollbar {
   width: 10px;
+  height: 10px;
 }
 
 /* Track */
@@ -15,7 +16,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff6a23;
+  background: #dd5111;
 }
 
 html {
@@ -47,10 +48,11 @@ h2 {
 
 .btn-container {
   display: flex;
-  justify-content: center;
+
+  text-align: center;
   align-items: center;
   margin: 40px 0;
-  overflow: auto;
+  overflow-x: auto;
 }
 .btn-item {
   margin-left: 15px;
@@ -73,6 +75,9 @@ h2 {
   .photo {
     width: 7rem;
     height: 7rem;
+  }
+  .btn-container {
+    justify-content: center;
   }
 }
 
@@ -120,4 +125,8 @@ h6 {
 
 footer ul i {
   font-size: 25px;
+}
+
+footer ul i:hover {
+  color: #dd5111;
 }
