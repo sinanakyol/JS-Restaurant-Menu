@@ -19,7 +19,7 @@ const menu = [
     id: 3,
     title: "Beyran",
     category: "Çorba",
-    price: "30 ₺",
+    price: "40 ₺",
     img: "https://static.daktilo.com/sites/1076/uploads/2022/09/14/large/beyran-corbasi-1663185654.jpg",
     desc: `Haşlanmış kuzu gerdan eti, haşlanmış pirinç, sarımsak, baharatlar ve et suyu bakır bir tabakta harmanlanarak servis edilir. Kış mevsiminin efsanesidir.`,
   },
@@ -27,7 +27,7 @@ const menu = [
     id: 4,
     title: "Kelle Paça",
     category: "Çorba",
-    price: "30 ₺",
+    price: "35 ₺",
     img: "https://hancorba.com.tr/wp-content/uploads/2021/11/hcweb_0005_Kelle-Paca.jpg",
     desc: `Mutfağımızın vazgeçilmez lezzetlerinden olan, tek başına eczane kabul edilen, boş şifalı Kelle paça çorbası.`,
   },
@@ -252,7 +252,7 @@ const menu = [
     title: "Şalgam",
     category: "İçecek",
     price: "15 ₺",
-    img: "https://im.haberturk.com/2022/02/11/ver1657442565/3342675_e075dc5bcbfb34114ea7b2c3ca2af3de.jpg",
+    img: "https://www.grandturkishbazaar.com/wp-content/uploads/2020/11/salgam-suyu-turnip-juice.jpg",
     desc: ``,
   },
   {
@@ -313,7 +313,7 @@ const btnList = ["Çorba", "Kebap", "Salata", "Meze", "Tatlı", "İçecek"];
 btnList.forEach((value) => {
   let button = document.createElement("button");
   button.innerHTML = value;
-  button.classList.add("btn", "btn-outline-dark", "btn-item");
+  button.classList.add("btn", "btn-green", "btn-item");
   button.setAttribute("data-id", value);
   button.addEventListener("click", buttonClick);
   btnContainerDOM.append(button);
