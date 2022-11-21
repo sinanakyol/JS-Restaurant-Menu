@@ -2,4 +2,4 @@
 
 *developed using JavaScript*
 
-![Menu](ss.png)
+![Menu](sss.png)
