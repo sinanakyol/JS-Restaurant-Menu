@@ -1,5 +1,5 @@
-# Asian-Kitchen-s-Menu
+# Restaurant Menu
 
-### (with Javascript).
+*developed using JavaScript*
 
 ![Menu](ss.png)
