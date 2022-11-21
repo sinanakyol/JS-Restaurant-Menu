@@ -1,22 +1,22 @@
 ::-webkit-scrollbar {
   width: 10px;
-  height: 10px;
+  height: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: transparent;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #dd5111;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #dd5111;
+  background: cadetblue;
 }
 
 html {
@@ -34,6 +34,7 @@ body {
   font-family: "Zilla Slab", serif;
   display: flex;
   flex-direction: column;
+  background-color: cornsilk;
 }
 
 h2 {
@@ -129,4 +130,16 @@ footer ul i {
 
 footer ul i:hover {
   color: #dd5111;
+}
+
+.btn-green {
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+.btn-green:hover {
+  color: #fff;
+  background-color: cadetblue;
+  border-color: cadetblue;
+  transition: 0.3s;
 }
