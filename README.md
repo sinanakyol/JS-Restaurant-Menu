@@ -1,5 +1,5 @@
 # Asian-Kitchen-s-Menu
 
-### (with Javascript)
+### (with Javascript).
 
 ![Menu](ss.png)
